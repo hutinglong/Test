@@ -1,8 +1,15 @@
 package com.example.demo;
 
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import javax.annotation.Resource;
+
+@RequestMapping("/t")
+@RestController
 public class helloworld {
-    public static void main(String[] args) {
-        System.out.println("测试Springboot工程,完成jenkins测试");
-        System.out.println("666666");
-    }
+   @RequestMapping("/t1")
+    public String test(){
+       return "test";
+   }
 }
