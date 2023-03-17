@@ -10,6 +10,6 @@ import javax.annotation.Resource;
 public class helloworld {
    @RequestMapping("/t1")
     public String test(){
-       return "ｈｔｌ测试jenkins成功";
+       return "ｈｔｌ测试jenkins成功本地";
    }
 }
