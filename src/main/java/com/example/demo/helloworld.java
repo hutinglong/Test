@@ -10,6 +10,8 @@ import javax.annotation.Resource;
 public class helloworld {
    @RequestMapping("/t1")
     public String test(){
+       System.out.println("6666666");
        return "ｈｔｌ测试jenkins成功,使用默认ｊｅｎｋｉｎｓ的ｍａｖｅｎ仓库";
    }
+
 }
